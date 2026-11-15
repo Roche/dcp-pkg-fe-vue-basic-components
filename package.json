@@ -1,0 +1,62 @@
+{
+  "name": "@open-dcp/vue-basic-components",
+  "version": "0.0.7",
+  "type": "module",
+  "main": "./dist/dcp-vue-basic-components.es.js",
+  "module": "./dist/dcp-vue-basic-components.es.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.8.0"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "type-check": "vue-tsc --noEmit",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@mdi/font": "^7.4.47",
+    "@open-dcp/styles": ">=0.1.27",
+    "@open-dcp/vue-styles": ">=0.2.1",
+    "rxjs": ">=7.8.2",
+    "vue": ">=3.5.13",
+    "vuetify": ">=3.8.0"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "@open-dcp/styles": ">=0.1.27",
+    "@open-dcp/vue-styles": ">=0.2.1",
+    "@storybook/addon-docs": "^10.2.3",
+    "@storybook/vue3": "^10.2.3",
+    "@storybook/vue3-vite": "^10.2.3",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^21.0.4",
+    "rxjs": "^7.8.2",
+    "sass-embedded": "^1.83.0",
+    "storybook": "^10.2.3",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.6",
+    "vite-plugin-dts": "^5.1.2",
+    "vitest": "^4.1.12",
+    "vue": "^3.5.13",
+    "vue-tsc": "^3.3.14",
+    "vuetify": "^3.11.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Roche/dcp-pkg-fe-vue-basic-components.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
